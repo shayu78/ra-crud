@@ -1,3 +1,4 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/7r4ga48a0vik8t0e?svg=true)](https://ci.appveyor.com/project/shayu78/ra-crud)
 CRUD
 ===
 
