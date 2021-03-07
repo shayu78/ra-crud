@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.component__wrapper {
+  width: 900px;
+  margin: 10px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header__text {
+  font-size: 26px;
+}
+
+.update__icon {
+  color: #72d86f;
+  margin-left: 15px;
+  padding: 3px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  cursor: default;
+  user-select: none;
+}
+
+.update__icon:active {
+  background-color: lightgoldenrodyellow;
+}
+
+.list__items {
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.list__item {
+  padding: 30px;
+  margin: 0 30px 30px 0;
+  height: 300px;
+  width: 250px;
+  border: 1px solid #000000;
+  position: relative;
+}
+
+.list__item:last-child {
+  margin-right: 0;
+}
+
+.form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+}
+
+.form__label {
+  margin: 0 0 10px 10px;
+}
+
+.form__ta {
+  width: 500px;
+  height: 150px;
+  padding: 5px;
+  outline: 0;
+  border: 1px solid #000000;
+  resize: none;
+  overflow: hidden;
+}
+
+.form__button {
+  padding: 5px;
+  outline: 0;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+}
+
+.form__button:active {
+  background-color: lightgoldenrodyellow;
+}
+
+.note__content {
+  overflow: auto;
+  height: 100%;
+  overflow-wrap: break-word;
+}
+
+.note__delete {
+  position: absolute;
+  cursor: default;
+  padding: 3px;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  color: red;
+  top: -17px;
+  right: -17px;
+  background-color: #ffffff;
+}
+
+.note__delete:active {
+  background-color: lightgoldenrodyellow;
+}
