@@ -13,7 +13,7 @@ export default class NotesWidget extends Component {
 
   handleSubmit = (event) => {
     if (!event.content.trim()) return;
-    event.id = 0;
+    event.id = 0; // добавляем свойство в тело запроса (хотя оно бессмысленно)
     fetch(process.env.REACT_APP_NOTES_URL, {
       method: 'POST',
       body: JSON.stringify(event),
